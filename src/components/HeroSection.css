@@ -3,6 +3,7 @@
   height: 70vh;
   color: #fff;
   overflow: hidden;
+  z-index: -1;
 }
 .hero-section-container {
   max-width: 1150px;
