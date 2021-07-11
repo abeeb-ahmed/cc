@@ -47,6 +47,7 @@
   margin: 0 auto;
   text-align: center;
   margin-bottom: 10%;
+  z-index: -3;
 }
 .hero-section-text h5 {
   margin-bottom: 20px;
