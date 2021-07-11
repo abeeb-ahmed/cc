@@ -12,13 +12,13 @@
   margin-bottom: 30px;
 }
 .contact-block-btn {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 330px) {
   .contact-block-btn {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
   }
 }

@@ -32,12 +32,12 @@ const Testimonial = () => {
             />
           </div>
           <div className="testimonial-text">
-            <span>
+            <p>
               "The quality of work from CreationCreed in terms of design,
               technical capacity and just the overall friendliness and demeanor
               of the people I was in contact with is top notch. My website was
               also ready before the agreed date. I highly recommend them."
-            </span>
+            </p>
             <h6>Prof. Popoola </h6>
             <h6 className="client-company-text"> MD, charis medical center</h6>
           </div>
@@ -51,11 +51,11 @@ const Testimonial = () => {
           </div>
 
           <div className="testimonial-text">
-            <span>
+            <p>
               "My project was executed in a very professional manner and I was
               very pleased with the outcome of their work. It was a pleasure
               doing business with the folks at CreationCreed."
-            </span>
+            </p>
             <h6>Dr. Fola David </h6>
             <h6 className="client-company-text">
               Founder, FolaDavid Foundation

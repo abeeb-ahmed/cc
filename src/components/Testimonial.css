@@ -29,7 +29,8 @@
   overflow: hidden;
   height: 100%;
 }
-.swiper-slide .testimonial-text span {
+.swiper-slide .testimonial-text p {
+  font-family: "poppins", sans-serif;
   font-size: 1.5rem;
   font-style: italic;
 }
@@ -49,8 +50,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  .swiper-slide .testimonial-text span {
-    font-size: 18px;
+  .swiper-slide .testimonial-text p {
+    font-size: 1.3rem;
   }
   .swiper-slide .testimonial-text {
     width: 100%;

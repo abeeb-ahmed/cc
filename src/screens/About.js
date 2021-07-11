@@ -66,12 +66,12 @@ const About = () => {
       <ServiceSection4 />
       <div className="about-section-3">
         <div className="about-section-3-container">
-          <span data-aos="fade-up">
+          <p data-aos="fade-up">
             "The world is evolving, and to be a serious player in any business
             sector you’re in requires a strong online presence. This is the
             reason why CreationCreed was created, to provide state of the art
             digital solutions to help Nigerian businesses scale appropriately."
-          </span>
+          </p>
           <div
             data-aos="fade-up"
             data-aos-delay="100"
