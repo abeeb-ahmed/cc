@@ -1,0 +1,13 @@
+.process-item {
+  display: flex;
+  justify-content: space-between;
+}
+.process-item span {
+  font-size: 4rem;
+  font-weight: 600;
+  color: darkgrey;
+  margin-right: 30px;
+}
+.process-item h5 {
+  margin-bottom: 10px;
+}

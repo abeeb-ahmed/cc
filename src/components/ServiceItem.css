@@ -1,0 +1,48 @@
+.service-item {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  transition: 0.3s ease all;
+}
+
+.service-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+.service-icon img {
+  object-fit: contain;
+  height: 90px;
+  align-self: left;
+}
+.service-text {
+  /* max-width: 70%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-text h5 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.service-text p {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .service-icon {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .service-text h5 {
+    text-align: center;
+  }
+  .service-text p {
+    text-align: left;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

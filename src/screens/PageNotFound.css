@@ -1,0 +1,40 @@
+.page-not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.page-not-found img {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -3;
+}
+.page-not-found .layer {
+  background-color: #000;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -3;
+}
+.pnf-text h2 {
+  max-width: 900px;
+  width: 80%;
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+.pnf-btn {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}

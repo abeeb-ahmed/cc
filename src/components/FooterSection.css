@@ -1,0 +1,135 @@
+.footer-section {
+  background-color: var(--dark);
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+
+.footer-section-container {
+  padding: 100px 1rem;
+  max-width: 1150px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer-section h6 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: grey;
+}
+.footer-section p {
+  font-size: 1rem;
+  font-weight: 500;
+
+  margin-bottom: 10px;
+}
+.footer-section-left {
+  width: 300px;
+}
+.footer-section-left img {
+  height: 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: ease all 0.3s;
+}
+.footer-section-left img:hover {
+  transform: scale(1.05);
+  transition: ease all 0.3s;
+}
+.footer-section-middle {
+  width: 300px;
+  text-align: center;
+}
+
+.footer-section-middle ul {
+  list-style: none;
+  text-align: start;
+}
+.footer-section-middle ul li {
+  padding: 8px 0;
+  transition: ease all 0.3s;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 auto;
+  width: fit-content;
+}
+.footer-section-middle ul li:hover {
+  color: var(--primary);
+  transition: ease all 0.3s;
+  cursor: pointer;
+}
+.footer-section-right {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socials-icons {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.socials-icon {
+  margin-right: 30px;
+}
+.socials-icon i {
+  font-size: 25px;
+  color: lightgrey;
+  transition: ease all 0.3s;
+}
+.socials-icon i:hover {
+  color: var(--primary);
+  transition: ease all 0.3s;
+  cursor: pointer;
+}
+.copyright {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.copyright p {
+  font-size: 0.9rem;
+  color: darkgrey;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-section-container {
+    padding: 50px 1rem;
+    flex-direction: column;
+  }
+  .footer-section-left {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  .footer-section-left img {
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  .footer-section-middle {
+    width: 70%;
+    text-align: start;
+    margin-bottom: 30px;
+  }
+  .footer-section-middle ul li {
+    padding: 5px 0;
+    margin: 0;
+  }
+  .footer-section h6 {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: grey;
+  }
+  .footer-section-right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-section-right h6 {
+    margin-bottom: 10px;
+  }
+  .socials-icon {
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,94 @@
+.service-section1 {
+  background-color: #1d1b26;
+  color: #fff;
+  padding: 100px 50px;
+}
+.service-section1-container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.service-section1 h2,
+.service-section2 h2 {
+  margin-bottom: 20px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.service-section1 p {
+  color: whitesmoke;
+}
+.service-section1-text {
+  max-width: 700px;
+  text-align: left;
+  margin: 0 auto;
+}
+.service-section1-text h2 {
+  text-align: center;
+}
+.service-section1-grid {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+.service-section2 {
+  background-color: #fff;
+  padding: 100px 50px 100px 50px;
+}
+.service-section2-container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.service-section2-text {
+  max-width: 700px;
+  text-align: left;
+  margin: 0 auto;
+}
+.service-section2-text h2 {
+  text-align: center;
+}
+.service-section3 {
+  background-color: #fff;
+}
+.service-section3-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service-section4-container {
+  max-width: 1150px;
+  padding: 100px 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service-section4-container h2 {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .service-section1,
+  .service-section2 {
+    padding: 60px 20px;
+  }
+  .service-section1 h2,
+  .service-section2 h2 {
+    margin-bottom: 20px;
+    max-width: 90%;
+  }
+  .service-section1-grid {
+    gap: 30px;
+  }
+  .service-section1-grid {
+    margin-top: 50px;
+  }
+  .service-section4-container {
+    padding: 60px 20px;
+  }
+  .service-section4-container h2 {
+    text-align: center;
+  }
+}

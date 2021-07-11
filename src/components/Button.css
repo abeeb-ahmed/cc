@@ -1,0 +1,67 @@
+:root {
+  --primary: #0467fb;
+  --white: #fff;
+  --dark: #111515;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.button {
+  display: flex;
+  padding: 9px 16px;
+  background-color: var(--primary);
+  border: 0;
+  font-size: 14px;
+  font-weight: 700;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  transition: ease all 0.3s;
+  text-transform: uppercase;
+  font-family: "poppins", sans-serif;
+}
+.button:hover {
+  background-color: #0750be;
+  transition: ease all 0.3s;
+  transform: scale(0.98);
+  cursor: pointer;
+  color: #fff;
+}
+.button:hover a {
+  color: white;
+  transition: ease all 0.3s;
+}
+.button a {
+  text-decoration: none;
+  color: var(--dark);
+
+  text-transform: uppercase;
+}
+.btn__wfont a {
+  color: #fff;
+}
+.btn__outlined {
+  background-color: transparent;
+  border: 2px solid var(--primary);
+  transition: ease 0.3s all;
+}
+.btn__outlined-white {
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: ease 0.3s all;
+}
+.btn__outlined-white:hover {
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+  transition: ease 0.3s all;
+  cursor: pointer;
+}
+.btn__outlined:hover {
+  background-color: var(--primary);
+  transition: ease 0.3s all;
+  cursor: pointer;
+}
+.btn__big {
+  padding: 15px 40px;
+}

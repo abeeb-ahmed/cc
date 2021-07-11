@@ -1,0 +1,146 @@
+.navbar {
+  width: 100%;
+  background-color: transparent;
+  height: 70px;
+}
+.navbar__container {
+  padding: 1rem;
+  max-width: 1150px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  transition: ease all 0.5s;
+}
+
+.navbar__logo {
+  margin-left: 0;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: ease all 0.5s;
+}
+.navbar__logo:hover {
+  transform: scale(1.05);
+  transition: ease all 0.5s;
+}
+.navbar__logo a {
+  margin: 0;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__laptop {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.navbar__laptop li a {
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  font-weight: 400;
+}
+
+.navbar__laptop li a:hover {
+  color: #0467fb;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+.navbar__laptop li a:focus {
+  color: #0467fb;
+}
+.navbar__mobile {
+  display: none;
+}
+.navbar__toggler {
+  display: none;
+}
+.navbar__sticky {
+  position: fixed;
+  transition: ease all 0.5s;
+  z-index: 2;
+  background-color: #111517;
+  color: #fff;
+}
+.navbar__sticky li {
+  color: #fff;
+}
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+.navbar__logo img {
+  height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__toggler {
+    display: block;
+    font-size: 2rem;
+    transition: ease all 0.3s;
+    z-index: 10;
+    color: #fff;
+  }
+  .navbar__toggler .cancel {
+    color: #fff;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+  }
+  .navbar__laptop {
+    display: none;
+  }
+  .navbar__mobile {
+    opacity: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    background-color: #111517;
+    transition: ease all 0.3s;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding: 20vh 1rem 1rem 1rem;
+    overflow-y: hidden;
+  }
+  .navbar__mobile ul {
+    list-style: none;
+    margin-bottom: 2rem;
+  }
+  .navbar__mobile li {
+    margin: 30px 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease all;
+  }
+
+  .navbar__mobile li:hover {
+    cursor: pointer;
+    color: #0467fb;
+    transition: 0.3s ease all;
+  }
+  .visible {
+    opacity: 1;
+    transition: ease all 0.3s;
+    z-index: 5;
+    display: flex;
+  }
+}
+@media screen and (max-width: 320px) {
+  .navbar__logo img {
+    height: 15px;
+  }
+}

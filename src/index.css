@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  color: #111517;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  font-style: normal;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+h1 {
+  font-family: "poppins", sans-serif;
+  line-height: 1.2;
+  font-size: 3rem;
+  font-weight: 700;
+}
+h2 {
+  font-family: "poppins", sans-serif;
+  line-height: 1.2;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+h4 {
+  font-family: "poppins", sans-serif;
+  line-height: 1.2;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+h5 {
+  font-family: "poppins", sans-serif;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+p {
+  line-height: 2rem;
+  font-family: "roboto", sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    line-height: 1.65rem;
+    font-size: 16px;
+  }
+  h1 {
+    line-height: 1.2;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  h2 {
+    line-height: 1.2;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  h4 {
+    line-height: 1.2;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  h5 {
+    line-height: 1.2;
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    line-height: 1.2;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  h2 {
+    line-height: 1.2;
+    font-size: 1.7rem;
+    font-weight: 900;
+  }
+  h4 {
+    line-height: 1.2;
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+}

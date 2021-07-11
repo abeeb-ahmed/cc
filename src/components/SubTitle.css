@@ -1,0 +1,22 @@
+.subtitle {
+  font-weight: 500;
+  color: #767676;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.subtitle::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background: #0467fb;
+  position: absolute;
+  display: flex;
+  margin-top: 5px;
+  transition: all 0.3s ease;
+}
+.subtitle:hover::after {
+  width: 70px;
+  transition: all 0.3s ease;
+}

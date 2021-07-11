@@ -1,0 +1,22 @@
+.call-button {
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  position: fixed;
+  z-index: 1;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease all 0.3s;
+}
+.call-button:hover {
+  transform: scale(1.2);
+  transition: ease all 0.3s;
+}
+.call-button i {
+  color: #fff;
+  font-size: 25px;
+}

@@ -1,0 +1,21 @@
+.career-container {
+  padding: 100px 50px;
+  min-height: 500px;
+}
+.career-section1-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+.career-section1-text h5 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .career-container {
+    padding: 60px 20px;
+    min-height: 700px;
+  }
+}

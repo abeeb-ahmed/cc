@@ -1,0 +1,75 @@
+#tsparticles {
+  z-index: -5;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  color: #fff;
+}
+.header__container {
+  max-width: 1025px;
+  padding: 0 1rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.header__text {
+  max-width: 60vw;
+  width: 500px;
+  height: 60%;
+}
+.header__text h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.header__text p {
+  color: #fafafa;
+}
+
+.header__button {
+  margin-top: 30px;
+  width: 200px;
+  height: 60;
+}
+
+@media screen and (max-width: 768px) {
+  .header__text {
+    text-align: center;
+  }
+  .header__text {
+    max-width: 60vw;
+    width: 300px;
+    height: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__button {
+    margin-top: 30px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__container {
+    padding: 3rem 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  .header__text h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .header__button {
+    margin-top: 20px;
+  }
+}

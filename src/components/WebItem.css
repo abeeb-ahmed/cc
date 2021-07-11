@@ -1,0 +1,37 @@
+.web-item {
+  padding: 10px;
+  text-align: center;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+}
+.web-item img {
+  margin-bottom: 20px;
+  width: 80px;
+}
+.web-item h5 {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.web-item p {
+  text-align: left;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 768px) {
+  .web-item p {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  .web-item h5 {
+    text-align: center;
+  }
+  .web-item img {
+    margin-bottom: 30px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
