@@ -66,27 +66,23 @@ const Portfolio = () => {
             <div className="portfolio-section5-container">
               <div data-aos="fade-up" className="portfolio-section5-btns">
                 {item.isWeb && (
-                  <div className="portfolio-section5-btn">
-                    <a href={item.webUrl} target="blank">
-                      View Site
-                    </a>
-                  </div>
+                  <a href={item.webUrl} target="blank">
+                    <div className="portfolio-section5-btn">View Site</div>
+                  </a>
                 )}
 
                 {item.isIos && (
-                  <div className="portfolio-section5-btn">
-                    <a href={item.iosUrl} target="blank">
-                      Download IOS
-                    </a>
-                  </div>
+                  <a href={item.iosUrl} target="blank">
+                    <div className="portfolio-section5-btn">Download IOS</div>
+                  </a>
                 )}
 
                 {item.isAndroid && (
-                  <div className="portfolio-section5-btn">
-                    <a href={item.androidUrl} target="blank">
+                  <a href={item.androidUrl} target="blank">
+                    <div className="portfolio-section5-btn">
                       Download Android
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                 )}
               </div>
             </div>

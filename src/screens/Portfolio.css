@@ -36,7 +36,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.portfolio-section5-btn {
+a .portfolio-section5-btn {
   display: flex;
   padding: 9px 16px;
   background-color: transparent;
@@ -55,7 +55,7 @@
   margin-right: auto;
   margin-top: 20px;
 }
-.portfolio-section5-btn:hover {
+a .portfolio-section5-btn:hover {
   background-color: var(--primary);
   color: #fff;
   transition: ease all 0.3s;

@@ -23,8 +23,8 @@ const Porfolio = ({ match }) => {
         <div className="container">
           <div className="portfolios-section1-grid">
             {items.map((item) => (
-              <Link data-aos="fade-up" to={`works/${item.id}`} key={item.id}>
-                <div className="portfolio-bg">
+              <Link to={`works/${item.id}`} key={item.id}>
+                <div data-aos="fade-up" className="portfolio-bg">
                   <img src={item.heroImg} alt={item.imgAlt} />
                   <div className="layer"></div>
                 </div>

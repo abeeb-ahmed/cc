@@ -22,8 +22,8 @@ export const SingleProject = [
     clientName: "Charis Medical Center",
     mockUpLaptop1:
       "https://i.ibb.co/mhPtMgM/Screenshot-12-macbookpro15-front.png",
-    mockUpPhone1: "https://i.ibb.co/xLHRXL8/shotsnapp-1625756432-678-1.png",
-    mockUpPhone2: "https://i.ibb.co/6YsjK7Q/charis-mobile-mock-Up1png.png",
+    mockUpPhone1: "https://i.ibb.co/PDVcw7j/charis-mobile-mock-Up1png.png",
+    mockUpPhone2: "https://i.ibb.co/61qS5rB/shotsnapp-1625756432-678.png",
     bgImg: "https://i.ibb.co/MC4dq28/marcelo-leal-6pc-GTJDuf6-M-unsplash-1.jpg",
     heroImg: "https://i.ibb.co/BysSNKj/portfolio1.png",
     imgAlt: "web developer in lagos",
