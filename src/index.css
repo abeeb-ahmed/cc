@@ -46,6 +46,7 @@ h5 {
 p {
   line-height: 2rem;
   font-family: "roboto", sans-serif;
+  font-weight: 400;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
