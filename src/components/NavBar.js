@@ -82,7 +82,7 @@ const NavBar = () => {
         <Button
           className="navbar__button"
           title="START A PROJECT"
-          url="#"
+          url="/contact"
           outlined={true}
           big={true}
           whiteFont={true}
