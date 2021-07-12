@@ -20,3 +20,13 @@
   width: 70px;
   transition: all 0.3s ease;
 }
+
+@media screen and (max-width: 768px) {
+  .subtitle {
+    font-size: 0.7rem;
+    display: none;
+  }
+  .subtitle::after {
+    height: 2px;
+  }
+}
