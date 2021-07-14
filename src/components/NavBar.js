@@ -80,10 +80,10 @@ const NavBar = () => {
           </li>
         </ul>
         <Button
-          className="navbar__button"
-          title="START A PROJECT"
           url="/contact"
-          outlined={true}
+          className="navbar__button"
+          outlinedWhite={true}
+          title="START A PROJECT"
           big={true}
           whiteFont={true}
         />

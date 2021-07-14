@@ -9,6 +9,7 @@ a {
 }
 .button {
   display: flex;
+  color: var(--primary);
   padding: 9px 16px;
   background-color: var(--primary);
   border: 0;
@@ -50,6 +51,7 @@ a {
   background-color: transparent;
   border: 2px solid #fff;
   transition: ease 0.3s all;
+  color: #fff;
 }
 .btn__outlined-white:hover {
   background-color: var(--primary);
