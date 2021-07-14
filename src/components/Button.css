@@ -9,9 +9,9 @@ a {
 }
 .button {
   display: flex;
-  color: var(--primary);
   padding: 9px 16px;
   background-color: var(--primary);
+  color: #fff;
   border: 0;
   font-size: 14px;
   font-weight: 700;
@@ -46,6 +46,7 @@ a {
   background-color: transparent;
   border: 2px solid var(--primary);
   transition: ease 0.3s all;
+  color: var(--primary);
 }
 .btn__outlined-white {
   background-color: transparent;
