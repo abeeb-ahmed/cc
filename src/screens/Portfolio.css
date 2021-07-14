@@ -50,6 +50,7 @@ a .portfolio-section5-btn {
   text-transform: uppercase;
   font-family: "poppins", sans-serif;
   border: solid 2px var(--primary);
+  color: var(--primary);
   width: 200px;
   margin-left: auto;
   margin-right: auto;
