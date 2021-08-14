@@ -68,7 +68,7 @@ const FooterSection = () => {
         </div>
       </div>
       <div className="copyright">
-        <p>&copy; 2021 CreationCreed</p>
+        <p>Copyright &copy; CreationCreed 2021</p>
       </div>
     </div>
   );
