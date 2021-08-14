@@ -26,10 +26,9 @@
   width: 20%;
   margin-left: auto;
   margin-right: auto;
-}
-.portfolio-btn {
   margin-top: 40px;
 }
+
 @media screen and (max-width: 768px) {
   .portfolio-section {
     padding: 60px 20px;
@@ -42,8 +41,6 @@
   }
   .portfolio-btn-container {
     width: 40%;
-  }
-  .portfolio-btn {
     margin-top: 20px;
   }
 }
@@ -51,9 +48,6 @@
 @media screen and (max-width: 330px) {
   .portfolio-btn-container {
     width: 45%;
-  }
-  .portfolio-btn {
-    margin-top: 20px;
   }
 }
 @media screen and (max-width: 300px) {
