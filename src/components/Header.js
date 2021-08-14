@@ -99,12 +99,14 @@ const Header = () => {
             bespoke website, mobile app, branding and digital marketing
             solutions.
           </p>
-          <Button
-            url="/contact"
-            className="header__button"
-            title="LET'S GET STARTED"
-            whiteFont="true"
-          />
+          <div className="header-btn">
+            <Button
+              url="/contact"
+              className="header__button"
+              title="LET'S GET STARTED"
+              whiteFont="true"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+
 import Button from "./Button.js";
 import "./NavBar.css";
 import logo from "../images/logo-white.png";
+import logo2 from "../images/new-logo-white.png";
 
 const NavBar = () => {
   const [clicked, setClicked] = useState(false);
@@ -30,7 +32,11 @@ const NavBar = () => {
       <div className="navbar__container">
         <div className="navbar__logo">
           <NavLink to="/" exact>
-            <img src={logo} alt="CreationCreed" />
+            <img
+              className={scrolled ? "logo-big" : ""}
+              src={scrolled ? logo2 : logo}
+              alt="CreationCreed"
+            />
           </NavLink>
         </div>
         <ul className="navbar__laptop">
@@ -79,14 +85,16 @@ const NavBar = () => {
             <NavLink to="/contact">CONTACT</NavLink>
           </li>
         </ul>
-        <Button
-          url="/contact"
-          className="navbar__button"
-          outlinedWhite={true}
-          title="START A PROJECT"
-          big={true}
-          whiteFont={true}
-        />
+        <div className="nav-btn-container">
+          <Button
+            url="/contact"
+            className="navbar__button"
+            outlinedWhite={true}
+            title="START A PROJECT"
+            big={true}
+            whiteFont={true}
+          />
+        </div>
       </div>
     </div>
   );

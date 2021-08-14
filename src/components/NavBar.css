@@ -13,6 +13,9 @@
   margin: 0 auto;
   transition: ease all 0.5s;
 }
+.navbar__logo a .logo-big {
+  height: 40px;
+}
 
 .navbar__logo {
   margin-left: 0;
@@ -46,7 +49,6 @@
   transition: 0.3s ease all;
   font-weight: 400;
 }
-
 .navbar__laptop li a:hover {
   color: #0467fb;
   transition: 0.3s ease all;

@@ -51,12 +51,14 @@ const PortfolioSection = () => {
             />
           </Link>
         </div>
-        <Button
-          url="/works"
-          className="portfolio-btn"
-          outlined={true}
-          title="view more"
-        />
+        <div className="portfolio-btn-container">
+          <Button
+            url="/works"
+            className="portfolio-btn"
+            outlined={true}
+            title="view more"
+          />
+        </div>
       </div>
     </div>
   );

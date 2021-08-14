@@ -2,8 +2,10 @@
   width: 100%;
   padding: 100px 50px;
 }
-.info__button {
+.info-btn-container {
   width: 40%;
+}
+.info__button {
   margin-top: 30px;
 }
 .infosection__container {
@@ -62,7 +64,6 @@
     width: 70px;
   }
   .info__button {
-    width: 40%;
     margin-top: 20px;
   }
   .infosection__right {

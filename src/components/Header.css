@@ -31,10 +31,11 @@
 .header__text p {
   color: #fafafa;
 }
-
+.header-btn {
+  width: 200px;
+}
 .header__button {
   margin-top: 30px;
-  width: 200px;
   height: 60;
 }
 
@@ -51,9 +52,11 @@
     flex-direction: column;
     align-items: center;
   }
+  .header-btn {
+    width: 200px;
+  }
   .header__button {
     margin-top: 30px;
-    width: 200px;
   }
 }
 @media screen and (max-width: 320px) {

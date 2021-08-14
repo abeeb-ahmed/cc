@@ -11,14 +11,20 @@
 .contact-block h2 {
   margin-bottom: 30px;
 }
-.contact-block-btn {
+.contact-btn-container {
   width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-block-btn {
   margin: 0 auto;
 }
 
 @media screen and (max-width: 330px) {
-  .contact-block-btn {
+  .contact-btn-container {
     width: 70%;
+  }
+  .contact-block-btn {
     margin: 0 auto;
   }
 }
