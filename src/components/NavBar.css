@@ -15,6 +15,7 @@
 }
 .navbar__logo a .logo-big {
   height: 40px;
+  transition: ease all 0.5s;
 }
 
 .navbar__logo {

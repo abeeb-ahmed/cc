@@ -4,10 +4,9 @@
 }
 .info-btn-container {
   width: 40%;
-}
-.info__button {
   margin-top: 30px;
 }
+
 .infosection__container {
   max-width: 1150px;
   margin: 0 auto;
@@ -63,7 +62,7 @@
   .infosection__left h5:hover::after {
     width: 70px;
   }
-  .info__button {
+  .info-btn-container {
     margin-top: 20px;
   }
   .infosection__right {
