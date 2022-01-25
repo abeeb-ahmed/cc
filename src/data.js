@@ -97,7 +97,7 @@ export const SingleProject = [
       "https://i.ibb.co/4Pf6Bfc/shotsnapp-1643110819-881-removebg-preview.png",
     bgImg:
       "https://i.ibb.co/N6JyRKb/ashim-d-silva-Zmg-Jizt-RHXE-unsplash-1.jpg",
-    heroImg: "https://i.ibb.co/n0TmfxP/shotsnapp-1643112199-333.png",
+    heroImg: "https://i.ibb.co/GH7W21y/shotsnapp-1643113087-432.png",
     imgAlt: "web developer in lagos",
     aboutText:
       "Black Fine & Fly is a luxury fashion company in Lagos, Nigeria that makes bespoke wears for African women ranging from jeans, dresses, tracksuits, jumpers and many more.",
