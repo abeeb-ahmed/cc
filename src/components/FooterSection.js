@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 import logo from "../images/logo-white.png";
@@ -6,6 +6,12 @@ import logo from "../images/logo-white.png";
 import "./FooterSection.css";
 
 const FooterSection = () => {
+  const [year, setYear] = useState();
+  useEffect(() => {
+    const d = new Date();
+    let currentYear = d.getFullYear();
+    setYear(currentYear);
+  }, []);
   return (
     <div className="footer-section">
       <div className="footer-section-container">
@@ -68,7 +74,7 @@ const FooterSection = () => {
         </div>
       </div>
       <div className="copyright">
-        <p>Copyright &copy; CreationCreed 2021</p>
+        <p>Copyright &copy; CreationCreed {year}</p>
       </div>
     </div>
   );

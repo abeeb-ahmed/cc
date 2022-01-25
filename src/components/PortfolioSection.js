@@ -7,6 +7,9 @@ import Button from "./Button";
 import "./PortfolioSection.css";
 import SubTitle from "./SubTitle";
 
+const lastItem = SingleProject[SingleProject.length - 1];
+const secondLastItem = SingleProject[SingleProject.length - 2];
+
 const PortfolioSection = () => {
   return (
     <div className="portfolio-section">
@@ -16,38 +19,32 @@ const PortfolioSection = () => {
           <h2>Recent Works</h2>
         </div>
         <div className="portfolio-section-grid">
-          <Link to={`works/${SingleProject[0].id}`}>
+          <Link to={`works/${lastItem.id}`}>
             <div data-aos="fade-up" className="portfolio-bg">
-              <img
-                src={SingleProject[0].heroImg}
-                alt={SingleProject[0].imgAlt}
-              />
+              <img src={lastItem.heroImg} alt={lastItem.imgAlt} />
               <div className="layer"></div>
             </div>
             <PortfolioItem
-              key={SingleProject[0].id}
-              status={SingleProject[0].status}
-              clientName={SingleProject[0].clientName}
-              projectType={SingleProject[0].projectType}
-              portfolioAlt={SingleProject[0].imgAlt}
-              portfolioImg={SingleProject[0].heroImg}
+              key={lastItem.id}
+              status={lastItem.status}
+              clientName={lastItem.clientName}
+              projectType={lastItem.projectType}
+              portfolioAlt={lastItem.imgAlt}
+              portfolioImg={lastItem.heroImg}
             />
           </Link>
-          <Link to={`works/${SingleProject[1].id}`}>
+          <Link to={`works/${secondLastItem.id}`}>
             <div data-aos="fade-up" className="portfolio-bg">
-              <img
-                src={SingleProject[1].heroImg}
-                alt={SingleProject[1].imgAlt}
-              />
+              <img src={secondLastItem.heroImg} alt={secondLastItem.imgAlt} />
               <div className="layer"></div>
             </div>
             <PortfolioItem
-              key={SingleProject[1].id}
-              status={SingleProject[1].status}
-              clientName={SingleProject[1].clientName}
-              projectType={SingleProject[1].projectType}
-              portfolioAlt={SingleProject[1].imgAlt}
-              portfolioImg={SingleProject[1].heroImg}
+              key={SingleProject.id}
+              status={secondLastItem.status}
+              clientName={secondLastItem.clientName}
+              projectType={secondLastItem.projectType}
+              portfolioAlt={secondLastItem.imgAlt}
+              portfolioImg={secondLastItem.heroImg}
             />
           </Link>
         </div>
